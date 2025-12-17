@@ -15,7 +15,7 @@ public class StudentServiceImple implements StudentService {
 }
 
 @Autowired
-StudentRepositorystudent
+StudentRepository StudentService
 
 
  public Student saveStudent(Student student){
