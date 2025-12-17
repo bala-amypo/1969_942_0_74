@@ -4,13 +4,18 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.service.StudentService;
 
+
+
 @Service
 public class StudentServiceImple implements StudentService {
-    private final StudentRepository studentRe
+    
+    private final StudentRepository StudentRepository;
+    public StudentServiceImple(StudentRepository studentRepository){
+    this.studentRepository=studentRepository;
+}
 
-
-    public Student saveStudent(Student student){
-        return 
+ public Student saveStudent(Student student){
+        return studentRepository.save)
     }
 
 }
