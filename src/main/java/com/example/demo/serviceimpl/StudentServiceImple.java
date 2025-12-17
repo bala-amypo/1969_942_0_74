@@ -12,8 +12,8 @@ public class StudentServiceImple implements StudentService {
     @Autowired
     StudentRepository studentRepository;
 
-    public Student
-     saveStudent(Student student){
+    public Stuentity
+     saveStudent(Stuentity stuentity){
         return studentRepository.save(student);
     }
     
